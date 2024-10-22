@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
     env = EnvironmentStub(num_states, num_actions)
 
-    for episode in range(1000):
+    for episode in range(10000):
         done = False
         state = env.reset()
         while not done:
